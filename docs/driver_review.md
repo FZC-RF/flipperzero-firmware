@@ -1,5 +1,7 @@
 # Sub-GHz/NFC Driver Review
 ## Sub-GHz (CC1101)
-- Pending review.
+- Buffer allocation: Potential overflow risk at high signal rates.
+- Modulation: AM650 supported; AM270 not supported, consider adding.
+- Memory: Fits within 256KB RAM; monitor stack usage.
 ## NFC (ST25R3916)
-- Pending review.
+- Missing nfc directory; see issue #X.
